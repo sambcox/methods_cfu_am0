@@ -10,18 +10,17 @@
 # YOU DO the rest:
 
 
-"Hello World".include?("Hello")
+p "Hello World".include?("Hello")
+#This is running a method that will return with true, because the string "Hello World" includes "Hello"
 
+p "Hello World".end_with?("Hello")
+#This is running a method that will return with false, because the string "Hello World" does not end with "Hello"
 
-"Hello World".end_with?("Hello")
+p "Hello World".end_with?("rld")
+#This is running a method that will return with true, because the string "Hello World" does end with "rld"
 
+p 12.even?
+#This is running a method that will return with true, because the integer 12 is even
 
-"Hello World".end_with?("rld")
-
-
-12.even?
-
-
-18.next
-
-
+p 18.next
+#This is running a method that will return with 19, because 19 follows 18, and .next will return the next integer in a series
